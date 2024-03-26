@@ -12,6 +12,8 @@ spec:
     path: app1
     repoURL: "https://github.com/alexgrud/argocd-examples"
     targetRevision: main
+    directory:
+      recurse: true
   syncPolicy:
     automated: 
       prune: true
