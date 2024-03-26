@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: alexg-helm
     server: "https://kubernetes.default.svc"
-  project: default
+  project: test-project
   sources:
     - path: helm-app
       repoURL: "https://github.com/alexgrud/argocd-examples"
